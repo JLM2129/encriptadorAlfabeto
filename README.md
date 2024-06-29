@@ -19,7 +19,7 @@ biologia
 Algoritmo de Encriptación
 El algoritmo de encriptación utilizado se basa en la permutación del alfabeto según una clave y la aplicación de una fórmula de cifrado afín:
 
-nuevaPos=(𝑎⋅𝑥+𝑏)mod26
+                                             nuevaPos=(𝑎⋅𝑥+𝑏)mod26
 
 Donde:
 
@@ -52,3 +52,4 @@ Funciones Principales
 Uso
 1.Encriptar Texto: Toma el texto de entrada, lo divide en palabras, y encripta cada palabra utilizando una clave diferente de la lista.
 2.Desencriptar Texto: Toma el texto encriptado, lo divide en palabras, y desencripta cada palabra utilizando la clave correspondiente.
+![image](https://github.com/JLM2129/encriptadorAlfabeto/assets/173087426/4a65ae6e-f4e7-4796-8e25-af8c0cf3a0d2)
