@@ -2,20 +2,21 @@ Encriptador y Desencriptador de Texto en JavaScript
 
 Descripción
 Este proyecto implementa un encriptador y desencriptador de texto en JavaScript utilizando un cifrado basado en permutaciones del alfabeto. Cada palabra del texto puede ser encriptada y desencriptada utilizando una clave diferente, seleccionada de una lista predefinida de claves.
+
 Claves Utilizadas.
 
 Las claves utilizadas en este proyecto son:
 
-Matematicas.
-geometria.
-fisica.
-quimica.
-estadistica.
-filosofia.
-historia.
-medicina.
-tecnologia.
-biologia.
+* Matematicas.
+* geometria.
+* fisica.
+* quimica.
+* estadistica.
+* filosofia.
+* historia.
+* medicina.
+* tecnologia.
+* biologia.
 
 Algoritmo de Encriptación
 El algoritmo de encriptación utilizado se basa en la permutación del alfabeto según una clave y la aplicación de una fórmula de cifrado afín:
