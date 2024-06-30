@@ -51,20 +51,20 @@ Donde:
   
 Funciones Principales
 
-1.obtenerAlfabetoPermutado(clave): Genera un alfabeto permutado basado en una clave.
+1. ObtenerAlfabetoPermutado(clave): Genera un alfabeto permutado basado en una clave.
 
-2.inversoModular(a, m): Calcula el inverso multiplicativo modular de 𝑎  módulo 𝑚.
+2. InversoModular(a, m): Calcula el inverso multiplicativo modular de 𝑎  módulo 𝑚.
 
-3.encriptar(texto, a, b, claves): Encripta el texto utilizando las claves proporcionadas.
+3.  Encriptar(texto, a, b, claves): Encripta el texto utilizando las claves proporcionadas.
 
-4.desencriptar(texto, a, b, claves): Desencripta el texto utilizando las mismas claves proporcionadas para encriptar.
+4. Desencriptar(texto, a, b, claves): Desencripta el texto utilizando las mismas claves proporcionadas para encriptar.
 
 Uso
 
 
-1.Encriptar Texto: Toma el texto de entrada, lo divide en palabras, y encripta cada palabra utilizando una clave diferente de la lista.
+1. Encriptar Texto: Toma el texto de entrada, lo divide en palabras, y encripta cada palabra utilizando una clave diferente de la lista.
 
-2.Desencriptar Texto: Toma el texto encriptado, lo divide en palabras, y desencripta cada palabra utilizando la clave correspondiente.
+2. Desencriptar Texto: Toma el texto encriptado, lo divide en palabras, y desencripta cada palabra utilizando la clave correspondiente.
 
 
 ![image](https://github.com/JLM2129/encriptadorAlfabeto/assets/173087426/4a65ae6e-f4e7-4796-8e25-af8c0cf3a0d2)
