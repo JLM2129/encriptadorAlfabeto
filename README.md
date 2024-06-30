@@ -19,6 +19,8 @@ Las claves utilizadas en este proyecto son:
 * biologia.
 
 Algoritmo de Encriptación
+
+
 El algoritmo de encriptación utilizado se basa en la permutación del alfabeto según una clave y la aplicación de una fórmula de cifrado afín:
 
                                              nuevaPos=(𝑎⋅𝑥+𝑏)mod26
@@ -34,6 +36,8 @@ Donde:
 * nuevaPos es la nueva posición de la letra en el alfabeto permutado.
   
 Algoritmo de Desencriptación
+
+
 Para revertir el encriptado, se utiliza el inverso multiplicativo modular de a y la fórmula inversa:
 
                                   x=(inverso multiplicativo de a - (nuevaPos−b))mod26
@@ -51,7 +55,10 @@ Funciones Principales
 2.inversoModular(a, m): Calcula el inverso multiplicativo modular de 𝑎  módulo 𝑚.
 3.encriptar(texto, a, b, claves): Encripta el texto utilizando las claves proporcionadas.
 4.desencriptar(texto, a, b, claves): Desencripta el texto utilizando las mismas claves proporcionadas para encriptar.
+
 Uso
+
+
 1.Encriptar Texto: Toma el texto de entrada, lo divide en palabras, y encripta cada palabra utilizando una clave diferente de la lista.
 2.Desencriptar Texto: Toma el texto encriptado, lo divide en palabras, y desencripta cada palabra utilizando la clave correspondiente.
 ![image](https://github.com/JLM2129/encriptadorAlfabeto/assets/173087426/4a65ae6e-f4e7-4796-8e25-af8c0cf3a0d2)
