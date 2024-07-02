@@ -67,4 +67,5 @@ Uso
 2. Desencriptar Texto: Toma el texto encriptado, lo divide en palabras, y desencripta cada palabra utilizando la clave correspondiente.
 
 
-![image](https://github.com/JLM2129/encriptadorAlfabeto/assets/173087426/4a65ae6e-f4e7-4796-8e25-af8c0cf3a0d2)
+![encriptador](https://github.com/JLM2129/encriptadorAlfabeto/assets/173087426/3f3fbdf3-d108-4a22-820c-dd1008cad438)
+
