@@ -15,7 +15,26 @@
 <section class="presentacion_contenido">
    
     <input  id="inputText"  placeholder="Ingrese el texto aquí"  ></input>
+<script>
+        function transformarTexto(texto) {
+            // Convertir a minúsculas
+            let textoTransformado = texto.toLowerCase();
+            
+            // Eliminar acentos
+            textoTransformado = eliminarAcentos(textoTransformado);
+            
+            return textoTransformado;
+        }
 
+        function eliminarAcentos(texto) {
+            return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        }
+
+        // Usar la función en el evento del input
+        document.getElementById('inputText').addEventListener('input', function() {
+            this.value = transformarTexto(this.value);
+        });
+    </script>
     
 
     <a class="parrafo" ><img src="./img/bi_exclamation-circle-fill.png" title="icono de exclamación">..Solo letras minusculas y sin acentos</a>
