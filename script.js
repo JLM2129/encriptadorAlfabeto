@@ -153,7 +153,25 @@
         function clearInput() {
             document.getElementById('inputText').value = '';
         }
+
+function transformarTexto(texto) {
+            // Convertir a minúsculas
+            let textoTransformado = texto.toLowerCase();
+            
+            // Eliminar acentos
+            textoTransformado = eliminarAcentos(textoTransformado);
+            
+            return textoTransformado;
+        }
         
+        function eliminarAcentos(texto) {
+            return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        }
+        
+        // Usar la función en el evento del input
+        document.getElementById('inputText').addEventListener('input', function() {
+            this.value = transformarTexto(this.value);
+        });
 
             btn1.disabled = true;
         
